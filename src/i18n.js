@@ -6,7 +6,7 @@ i18n.use(initReactI18next).init({
     en: {
       translation: {
         title: "Easily find what you need or sell what you no longer use with just one click!",
-        buyNow: "Buy Now",
+        buyNow: "Buy Nown",
         welcome: "Welcome to Quick Announce",
         description: "Quick Announce is the perfect place to buy and sell easily. Our platform helps you connect with buyers and sellers quickly and efficiently. Whether you're looking for electronics, fashion, or home items, we've got you covered!",
         postAd: "+ Post an Ad"
