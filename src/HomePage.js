@@ -299,7 +299,7 @@ const Home = () => {
       (storedAd) => !ads.some((ad) => ad.id === storedAd.id)
     );
     setAds((prevAds) => [...prevAds, ...newAds]); // Ajouter seulement les nouvelles annonces
-  }, [ads]);  // Ajoutez ici `ads` pour résoudre l'avertissement
+  }, []);  // Ajoutez ici `ads` pour résoudre l'avertissement
   
 
   const deleteAd = (index) => {
